@@ -6,6 +6,16 @@ Unofficial native Apple Silicon inference plus BANKING retrieval adaptation and 
 
 Upstream: [perplexity-ai/pplx-embed-v2-late-0.6b](https://huggingface.co/perplexity-ai/pplx-embed-v2-late-0.6b), pinned revision `8fc2de24534aa3610d85fa59c463313a5f096455`. Token-level embeddings use MaxSim retrieval. This is a standalone custom MLX runtime, **not a drop-in `mlx_lm` or Sentence Transformers checkpoint**. It imports neither Torch nor Transformers for inference.
 
+## Choose a model
+
+- [Original Perplexity late-0.6B — native MLX FP16](https://huggingface.co/Nurymanau/pplx-embed-v2-late-0.6b-MLX-fp16)
+- [Perplexity late-0.6B — BANKING full text fine-tuning on MLX](https://huggingface.co/Nurymanau/pplx-embed-v2-late-0.6b-BANKING-MLX)
+- [Perplexity late — six-layer BANKING student on MLX](https://huggingface.co/Nurymanau/pplx-embed-v2-late-BANKING-Student6-MLX)
+
+The original bundle remains available, including the small adapter, mixed MLP-Q4 and historical research variants. Each separate model page contains the native runtime and its own root-level weights.
+
+[Technical write-up](https://github.com/Obscyra-app/pplx-embed-mlx/blob/main/docs/experiment.md) · [Apple Silicon MLX portfolio](https://huggingface.co/collections/Nurymanau/apple-silicon-mlx-ports-and-experiments-6ac9709d0628f31e0993a8f7)
+
 ## Measured P10 result
 
 Native MLX FP16 on the same fresh BANKING intent-exemplar retrieval test: 770 queries,154 documents,77 intents. This is not the official classification benchmark or answer accuracy.

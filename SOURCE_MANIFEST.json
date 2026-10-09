@@ -33,8 +33,8 @@
       "bytes": 4764
     },
     "README.md": {
-      "sha256": "18612a3ddb84919e945193d4b2ce81a6e907c4d779e2abe7734804374cf1f79f",
-      "bytes": 6402
+      "sha256": "a6a95714cfa8feb33931fe4ab9c2cf672432c3cc18c211b298f3445db538da1e",
+      "bytes": 7253
     },
     "UPSTREAM_MODEL_CARD.md": {
       "sha256": "c47db7d49bb32b4ba82c76a1148ec42bfb1e9967eb55b16b4482b58a5172bd51",
@@ -95,6 +95,10 @@
     "code/pplx_mlx/resize.py": {
       "sha256": "b02de048fa50c25b24145c23c33652c9fadc79c3b974fe77c2be380dab1b205e",
       "bytes": 2502
+    },
+    "docs/experiment.md": {
+      "sha256": "0129885348f5937e540d861fcf24f398bbe634650d880f7cd3d790f5b395ce62",
+      "bytes": 6075
     },
     "download_weights.py": {
       "sha256": "9622a08b2c892dd8affde29c20940c17f1610e32a80e07d1bc076c1ca4ca9cfb",
