@@ -1,0 +1,17 @@
+Model: perplexity-ai/pplx-embed-v2-late-0.6b, revision
+8fc2de24534aa3610d85fa59c463313a5f096455. Model card declares MIT.
+Original weights are neither modified in place nor committed here.
+
+The gated_delta.py numerical/Metal routines were copied from mlx-vlm 0.7.6,
+mlx_vlm/models/qwen3_5/gated_delta.py (itself based on mlx-lm 0.31.3).
+The unused generation-cache history dispatch was replaced with an explicit error.
+See licenses/mlx-vlm-LICENSE and licenses/mlx-lm-LICENSE.
+Encoder architecture follows Transformers 5.19.0 Qwen3.5 implementation
+(Apache-2.0). Processor patch ordering follows Transformers Qwen2VL.
+See licenses/transformers-LICENSE. No Transformers/Torch imports in inference.
+No claim of being the first MLX implementation.
+
+resize.py implements the uint8 separable bicubic-antialias integer arithmetic
+used by PyTorch / torchvision v2. The first failed diagnostic used torchvision
+v1's float-cast path; v2 is the path actually used by Transformers 5.19.0.
+See licenses/PYTORCH_LICENSE. Native image size limits are explicit local policy.

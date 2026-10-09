@@ -1,0 +1,27 @@
+{
+  "pass": true,
+  "manifest_files": 52,
+  "allowlist_pass": true,
+  "private_markers_absent": true,
+  "variants": {
+    "full": {
+      "pass": true,
+      "fresh_cli_processes": 2,
+      "documents": 4,
+      "queries": 1,
+      "max_vector_error": 0.0,
+      "max_score_error": 8.276397558404369e-07,
+      "ranking_equal": true
+    },
+    "student": {
+      "pass": true,
+      "fresh_cli_processes": 2,
+      "documents": 4,
+      "queries": 1,
+      "max_vector_error": 0.0,
+      "max_score_error": 9.289042122162527e-07,
+      "ranking_equal": true
+    }
+  },
+  "published": false
+}

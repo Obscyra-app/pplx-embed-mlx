@@ -1,0 +1,129 @@
+{
+  "files": {
+    ".gitignore": {
+      "sha256": "286566a2611d8b6e6d18ac3a419758d6bf5fe4aeb8cc0fa2c750a43a8bcc2e0c",
+      "bytes": 64
+    },
+    "DATA_LICENSE.txt": {
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+      "bytes": 18650
+    },
+    "HF_WEIGHTS.json": {
+      "sha256": "e903da4d7be154b9e0d3169ead49a2eb3f9740a04df987e8e0e341849186c25b",
+      "bytes": 4787
+    },
+    "LICENSE": {
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+      "bytes": 11418
+    },
+    "P10_README.md": {
+      "sha256": "c2f7be02abb283fec1463dc50c9691119c9d2626a38a041729857c58f126c56b",
+      "bytes": 3376
+    },
+    "P10_VALIDATION.json": {
+      "sha256": "a439e7bf8d829a59b8062c288a31e1d9312ab7fef1e2b63f8d370abe72259233",
+      "bytes": 10687
+    },
+    "P10_VERIFICATION.json": {
+      "sha256": "25e219afebed6381bae1d57cfb396dcd02aa03c49b42ed2cd79d9a9c4f573b70",
+      "bytes": 592
+    },
+    "P1_P9_RESULTS.md": {
+      "sha256": "387dfbf304962451c53151057b591ed08993320052490b7edc3140d05bbbde65",
+      "bytes": 4764
+    },
+    "README.md": {
+      "sha256": "18612a3ddb84919e945193d4b2ce81a6e907c4d779e2abe7734804374cf1f79f",
+      "bytes": 6402
+    },
+    "UPSTREAM_MODEL_CARD.md": {
+      "sha256": "c47db7d49bb32b4ba82c76a1148ec42bfb1e9967eb55b16b4482b58a5172bd51",
+      "bytes": 3258
+    },
+    "VALIDATION.json": {
+      "sha256": "4d87dde5aa13d7bef0543b96cd0c3bd8a186c854f12b5dddd8d5fcc5e462a002",
+      "bytes": 4449
+    },
+    "VERIFICATION.json": {
+      "sha256": "9fbb60ba11dbe980f2f95d8e674c6aa99e1a4a2c2a3feca67ad096e7da1eb092",
+      "bytes": 1112
+    },
+    "WEIGHTS_LICENSE.txt": {
+      "sha256": "64a34783efada546b531cbaafa7200cf7554e2ab78dc41bcef7c22518cf4a42c",
+      "bytes": 1286
+    },
+    "code/pplx_mlx/NOTICE": {
+      "sha256": "69a4b23906999aaf31e8170f0d89c3662b058e2a617b5fc9c88cd0017c0ba0ba",
+      "bytes": 1060
+    },
+    "code/pplx_mlx/__init__.py": {
+      "sha256": "63be23c08b0d0a57eb073f4f87c1cf035fd641c1a2a50e1950beebae0f26993d",
+      "bytes": 75
+    },
+    "code/pplx_mlx/adapter.py": {
+      "sha256": "8cf5c1f3c0d8700edd95b96f4c1641d47716a81909e0bb483f49793cccb4c3aa",
+      "bytes": 2002
+    },
+    "code/pplx_mlx/checkpoint.py": {
+      "sha256": "d29fa4079d8273cdc71a433e21f6162e4c3147a5674e51775d237913c243a124",
+      "bytes": 3900
+    },
+    "code/pplx_mlx/cli.py": {
+      "sha256": "c7dc3542a861dd0e63d853d1839d5a1e301ce5aaa6da8fdf3069350a7cf14e86",
+      "bytes": 6091
+    },
+    "code/pplx_mlx/gated_delta.py": {
+      "sha256": "ca9059dc9258a003fbf31ecb18263b68ef2e44fe181a49d803e3b2c1b2fa5fb0",
+      "bytes": 14013
+    },
+    "code/pplx_mlx/model.py": {
+      "sha256": "c52a5ca59b6196f2684e665e072acf14e722b298e533098f6da64c8f3b1cd481",
+      "bytes": 13269
+    },
+    "code/pplx_mlx/next/__init__.py": {
+      "sha256": "726eeb69b3032b29cfe9a381593f64795e940c49f8389bf2e2cea924d493a113",
+      "bytes": 57
+    },
+    "code/pplx_mlx/next/student.py": {
+      "sha256": "6e8462e91367cde25c4348f95770a3ec03182c311f08c0eb4b80c8341651edfa",
+      "bytes": 4776
+    },
+    "code/pplx_mlx/processor.py": {
+      "sha256": "00acd65bf928e1cb9302d4c8a021906f8d47ce6c45a39afbbfeee61dd85e2bd9",
+      "bytes": 3499
+    },
+    "code/pplx_mlx/resize.py": {
+      "sha256": "b02de048fa50c25b24145c23c33652c9fadc79c3b974fe77c2be380dab1b205e",
+      "bytes": 2502
+    },
+    "download_weights.py": {
+      "sha256": "9622a08b2c892dd8affde29c20940c17f1610e32a80e07d1bc076c1ca4ca9cfb",
+      "bytes": 2092
+    },
+    "examples/documents.json": {
+      "sha256": "4b3e5501db396035652ce7d21b7594818212883d5f31a6cc2ffaabc4a94ed7a5",
+      "bytes": 156
+    },
+    "licenses/PYTORCH_LICENSE": {
+      "sha256": "bd018feef8825e88181c84eb7e3aa4eafb8f08a20d9fd6ef948569610c4a3e43",
+      "bytes": 3464
+    },
+    "licenses/mlx-lm-LICENSE": {
+      "sha256": "ccfab7ccb2ea306f71531c8ca77bb55507606cd90768b1e32b8b52ab5b48cf01",
+      "bytes": 1066
+    },
+    "licenses/mlx-vlm-LICENSE": {
+      "sha256": "f74c448746be3376e27dee43e2be9ec9d55f4820cd7466c603a6c7d1fd2d25b8",
+      "bytes": 1069
+    },
+    "licenses/transformers-LICENSE": {
+      "sha256": "77fd4710def9ec3c0f6225800e0235f15a425abd4a8b03559127fcd782612049",
+      "bytes": 11418
+    },
+    "requirements.txt": {
+      "sha256": "3893eab9c35917f75345b3535717358e1a4e9bb68ca0fbd5a09d5d3dd0b37086",
+      "bytes": 78
+    }
+  },
+  "hf_revision": "239c932ab7dcfd98bcc6dd77d29d53cd87225989"
+}

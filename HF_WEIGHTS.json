@@ -1,0 +1,119 @@
+{
+  "repo": "Nurymanau/pplx-embed-v2-late-0.6b-MLX",
+  "revision": "239c932ab7dcfd98bcc6dd77d29d53cd87225989",
+  "tag": "v0.1.0",
+  "files": {
+    "weights/banking-adapter/DATA_LICENSE.txt": {
+      "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",
+      "bytes": 18650
+    },
+    "weights/banking-adapter/adapter.json": {
+      "sha256": "073f14267cf65f700e41966809042076ada4d5aca741e5e66bcb50e01cdac02a",
+      "bytes": 1252
+    },
+    "weights/banking-adapter/adapter.safetensors": {
+      "sha256": "694b5933b931bca91eef1c6734717df3e5ad5a0d2911d09bf616fdd864c392ea",
+      "bytes": 65616
+    },
+    "weights/banking-full-p10-fp16/2_MultiVectorMask/config.json": {
+      "sha256": "98a33321fed690efcf10dff2db3b4e17a435adf8ac3fda67f675633c03b41d2a",
+      "bytes": 391
+    },
+    "weights/banking-full-p10-fp16/config.json": {
+      "sha256": "c8f7eb8533d309e19fd62390779432c57c9f47dc3dc0e262bc2fadf46513210f",
+      "bytes": 2305
+    },
+    "weights/banking-full-p10-fp16/mlx_checkpoint.json": {
+      "sha256": "aaabc4ccf46e8e4d86042fddc91d959d5fe48064023078c02514490a064138b2",
+      "bytes": 42324
+    },
+    "weights/banking-full-p10-fp16/mlx_model.safetensors": {
+      "sha256": "e28571be7336829501cfbd4cddc5275d92e8967102e9d585fd637b7974da79db",
+      "bytes": 1189337803
+    },
+    "weights/banking-full-p10-fp16/tokenizer.json": {
+      "sha256": "a171436d73b1d30b9ba99ff6b7f15efcf45cf428b6ff908842286a8057030b1c",
+      "bytes": 19989705
+    },
+    "weights/banking-student6-p10/2_MultiVectorMask/config.json": {
+      "sha256": "98a33321fed690efcf10dff2db3b4e17a435adf8ac3fda67f675633c03b41d2a",
+      "bytes": 391
+    },
+    "weights/banking-student6-p10/config.json": {
+      "sha256": "5187da2f96ff2c0ba6202a1a6d5ecfd1974fc44ca422a5b0e56e5b0df2a231bd",
+      "bytes": 2153
+    },
+    "weights/banking-student6-p10/student.json": {
+      "sha256": "3ebe032e66e29b79f6eac36c9ef6c948238b2ac613b39f2405aff9bd31c902f8",
+      "bytes": 784
+    },
+    "weights/banking-student6-p10/student.safetensors": {
+      "sha256": "edb7278485acdbb80bc49354937448052990c5f9d98ca825d61441e47a0e24e5",
+      "bytes": 748573681
+    },
+    "weights/banking-student6-p10/tokenizer.json": {
+      "sha256": "a171436d73b1d30b9ba99ff6b7f15efcf45cf428b6ff908842286a8057030b1c",
+      "bytes": 19989705
+    },
+    "weights/base-fp16/2_MultiVectorMask/config.json": {
+      "sha256": "98a33321fed690efcf10dff2db3b4e17a435adf8ac3fda67f675633c03b41d2a",
+      "bytes": 391
+    },
+    "weights/base-fp16/config.json": {
+      "sha256": "c8f7eb8533d309e19fd62390779432c57c9f47dc3dc0e262bc2fadf46513210f",
+      "bytes": 2305
+    },
+    "weights/base-fp16/mlx_checkpoint.json": {
+      "sha256": "e85fa34b69f707a468f8733ab7a905e0d53b1c413ce0c0e2315019abe9a4832c",
+      "bytes": 42110
+    },
+    "weights/base-fp16/mlx_model.safetensors": {
+      "sha256": "d962f1022e6f67e70ec783269f0b5c910b49b6a66e48e4bc42032c7a302c6cd2",
+      "bytes": 1189337799
+    },
+    "weights/base-fp16/tokenizer.json": {
+      "sha256": "a171436d73b1d30b9ba99ff6b7f15efcf45cf428b6ff908842286a8057030b1c",
+      "bytes": 19989705
+    },
+    "weights/base-mlp-q4/2_MultiVectorMask/config.json": {
+      "sha256": "98a33321fed690efcf10dff2db3b4e17a435adf8ac3fda67f675633c03b41d2a",
+      "bytes": 391
+    },
+    "weights/base-mlp-q4/config.json": {
+      "sha256": "c8f7eb8533d309e19fd62390779432c57c9f47dc3dc0e262bc2fadf46513210f",
+      "bytes": 2305
+    },
+    "weights/base-mlp-q4/mlx_checkpoint.json": {
+      "sha256": "16a4227713eca56f0bab0df4962fcd77ec9fb8a3613ab3f85ae7f13f90e3cd94",
+      "bytes": 56203
+    },
+    "weights/base-mlp-q4/mlx_model.safetensors": {
+      "sha256": "3fc3a713f9f9a4c9b172c7b19118466e9e55c5690334b6a0cc49511f5b9e2fdd",
+      "bytes": 999424540
+    },
+    "weights/base-mlp-q4/tokenizer.json": {
+      "sha256": "a171436d73b1d30b9ba99ff6b7f15efcf45cf428b6ff908842286a8057030b1c",
+      "bytes": 19989705
+    },
+    "weights/student6-experimental/2_MultiVectorMask/config.json": {
+      "sha256": "98a33321fed690efcf10dff2db3b4e17a435adf8ac3fda67f675633c03b41d2a",
+      "bytes": 391
+    },
+    "weights/student6-experimental/config.json": {
+      "sha256": "5187da2f96ff2c0ba6202a1a6d5ecfd1974fc44ca422a5b0e56e5b0df2a231bd",
+      "bytes": 2153
+    },
+    "weights/student6-experimental/student.json": {
+      "sha256": "624663d0791e846be4f93bd1f253806ac15421a80a3ad696f3a06f1cd5728f26",
+      "bytes": 736
+    },
+    "weights/student6-experimental/student.safetensors": {
+      "sha256": "001a7862bd7bc6ff64dee9f8084c93765d39cbfa998add2570013cca12771f26",
+      "bytes": 748573695
+    },
+    "weights/student6-experimental/tokenizer.json": {
+      "sha256": "a171436d73b1d30b9ba99ff6b7f15efcf45cf428b6ff908842286a8057030b1c",
+      "bytes": 19989705
+    }
+  }
+}

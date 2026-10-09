@@ -1,0 +1,44 @@
+{
+  "pass": true,
+  "manifest_files_verified": 39,
+  "variants": {
+    "fp16": {
+      "pass": true,
+      "documents": 4,
+      "queries": 1,
+      "max_vector_error": 0.0,
+      "max_score_error": 2.47755624460666e-07,
+      "fresh_standalone_cli_processes": 2,
+      "ranking_equal": true
+    },
+    "banking": {
+      "pass": true,
+      "documents": 4,
+      "queries": 1,
+      "max_vector_error": 3.7026113007543326e-07,
+      "max_score_error": 2.3185135589187666e-07,
+      "fresh_standalone_cli_processes": 2,
+      "ranking_equal": true
+    },
+    "q4": {
+      "pass": true,
+      "documents": 4,
+      "queries": 1,
+      "max_vector_error": 0.0,
+      "max_score_error": 1.6282989996341257e-06,
+      "fresh_standalone_cli_processes": 2,
+      "ranking_equal": true
+    },
+    "student": {
+      "pass": true,
+      "documents": 4,
+      "queries": 1,
+      "max_vector_error": 1.1494213302681855e-07,
+      "max_score_error": 3.99685936347538e-07,
+      "fresh_standalone_cli_processes": 2,
+      "ranking_equal": true
+    }
+  },
+  "published": false,
+  "independent_original_caches_used": true
+}

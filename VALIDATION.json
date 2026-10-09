@@ -1,0 +1,151 @@
+{
+  "bm25": {
+    "kind": "bm25",
+    "metrics": {
+      "bm25": {
+        "ndcg10": 0.39643308090240825,
+        "hit1": 0.3344155844155844,
+        "recall10": 0.49837662337662336,
+        "mrr10": 0.4580949804164091
+      }
+    },
+    "queries": 308,
+    "documents": 154,
+    "selection_performed": false
+  },
+  "banking": {
+    "kind": "banking",
+    "metrics": {
+      "baseline": {
+        "ndcg10": 0.7650639784389028,
+        "hit1": 0.7224025974025974,
+        "recall10": 0.872564935064935,
+        "mrr10": 0.8023519635126777
+      },
+      "adapter": {
+        "ndcg10": 0.7953921920435421,
+        "hit1": 0.7451298701298701,
+        "recall10": 0.898538961038961,
+        "mrr10": 0.82197742733457
+      },
+      "bm25": {
+        "ndcg10": 0.4441611239931254,
+        "hit1": 0.400974025974026,
+        "recall10": 0.549512987012987,
+        "mrr10": 0.5125057977736548
+      }
+    },
+    "queries": 616,
+    "documents": 154,
+    "selection_performed": false
+  },
+  "regression": {
+    "kind": "regression",
+    "metrics": {
+      "baseline": {
+        "ndcg10": 0.8433827791297499,
+        "hit1": 0.75,
+        "recall10": 0.925,
+        "mrr10": 0.81875
+      },
+      "adapter": {
+        "ndcg10": 0.8580635002610618,
+        "hit1": 0.8,
+        "recall10": 0.925,
+        "mrr10": 0.8425
+      }
+    },
+    "queries": 40,
+    "documents": 2919,
+    "selection_performed": false
+  },
+  "q4": {
+    "kind": "q4",
+    "metrics": {
+      "baseline": {
+        "ndcg10": 0.8433827791297499,
+        "hit1": 0.75,
+        "recall10": 0.925,
+        "mrr10": 0.81875
+      },
+      "q4": {
+        "ndcg10": 0.8408039525140873,
+        "hit1": 0.75,
+        "recall10": 0.925,
+        "mrr10": 0.8139880952380952
+      }
+    },
+    "queries": 40,
+    "documents": 2919,
+    "selection_performed": false,
+    "fixed_gate_pass": true
+  },
+  "student": {
+    "metrics": {
+      "teacher": {
+        "ndcg10": 0.7953921920435421,
+        "hit1": 0.7451298701298701,
+        "recall10": 0.898538961038961,
+        "mrr10": 0.82197742733457
+      },
+      "student_initial": {
+        "ndcg10": 0.531585280237285,
+        "hit1": 0.461038961038961,
+        "recall10": 0.6582792207792207,
+        "mrr10": 0.5806347917955056
+      },
+      "student_distilled": {
+        "ndcg10": 0.6448782842775729,
+        "hit1": 0.5746753246753247,
+        "recall10": 0.7784090909090909,
+        "mrr10": 0.6914296021438874
+      }
+    },
+    "quality_gate_pass": false,
+    "selection_sha256": "7a62bf93ff7bc1e3836082ce287d055988475c80819c5124ec46209dce578eda",
+    "queries": 616,
+    "documents": 154,
+    "test_used_for_repair": false
+  },
+  "student_acceptance": {
+    "quality_gate_pass": false,
+    "size_gate_pass": true,
+    "latency_gate_pass": true,
+    "base_file_bytes": 1189337799,
+    "base_tensor_bytes": 1189303552,
+    "student_file_bytes": 748573695,
+    "student_to_base_tensor_ratio": 0.6294218946383842,
+    "median_latency_ratio": 0.4792373760577453,
+    "median_speed_ratio": 2.0866486003785853,
+    "recommended_replacement": false,
+    "decision": "Experimental only: quality gate failed. Keep original FP16 plus opt-in P6 adapter as release default.",
+    "causal_scope": "Observed outcome of this frozen six-layer/output-only recipe; does not prove a particular architectural cause or benefit from 9B/LoRA.",
+    "next_compute_decision": "No 9B download or rental for current release. A future layer/LoRA recipe needs a new train/dev protocol and untouched test; current test must not become a tuning set.",
+    "cloud_cost_usd": 0
+  },
+  "benchmark": {
+    "teacher": {
+      "kind": "teacher",
+      "warmup": 2,
+      "measured_repeats": 7,
+      "median_seconds": 0.04162329150130972,
+      "peak_mlx_bytes": 1525678080,
+      "merged_projection_errors": [],
+      "scope": "4 fixed short P6 dev inputs; preload excluded, preprocessing and materialization included; teacher core (adapter overhead excluded)"
+    },
+    "student": {
+      "kind": "student",
+      "warmup": 2,
+      "measured_repeats": 7,
+      "median_seconds": 0.019947437001974322,
+      "peak_mlx_bytes": 761950782,
+      "merged_projection_errors": [
+        1.1920928955078125e-07,
+        4.246830940246582e-07,
+        2.2351741790771484e-07,
+        3.203749656677246e-07
+      ],
+      "scope": "4 fixed short P6 dev inputs; preload excluded, preprocessing and materialization included; teacher core (adapter overhead excluded)"
+    }
+  }
+}
