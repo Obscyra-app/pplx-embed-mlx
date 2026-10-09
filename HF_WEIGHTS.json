@@ -1,7 +1,7 @@
 {
   "repo": "Nurymanau/pplx-embed-v2-late-0.6b-MLX",
-  "revision": "239c932ab7dcfd98bcc6dd77d29d53cd87225989",
-  "tag": "v0.1.0",
+  "revision": "5cb121dd72cbb394205a11414dc1305597a6c054",
+  "tag": "v0.1.1",
   "files": {
     "weights/banking-adapter/DATA_LICENSE.txt": {
       "sha256": "7e7170e3cebf88a9f60c7b8421418323c09304da1af4d5e90f4da1dc1c8a2661",

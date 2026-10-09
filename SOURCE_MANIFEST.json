@@ -9,7 +9,7 @@
       "bytes": 18650
     },
     "HF_WEIGHTS.json": {
-      "sha256": "e903da4d7be154b9e0d3169ead49a2eb3f9740a04df987e8e0e341849186c25b",
+      "sha256": "e406ff5338cb4366c81044241a5589b3348d8839c8185f5bf4b587a3749c2210",
       "bytes": 4787
     },
     "LICENSE": {
@@ -125,5 +125,5 @@
       "bytes": 78
     }
   },
-  "hf_revision": "239c932ab7dcfd98bcc6dd77d29d53cd87225989"
+  "hf_revision": "5cb121dd72cbb394205a11414dc1305597a6c054"
 }
